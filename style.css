@@ -33,7 +33,7 @@ h1{
 .desc_section2{
     height: 250vh auto;
     width: 100% ;
-   
+   position: absolute;
     margin-top: 9px;
     font-family: 'Asap Condesed', sans-serif;
     font-family: 'Libre Franklin', sans-serif;
@@ -72,10 +72,10 @@ img{
 border: 2px solid black;
 border-radius: 20px;
 width: 300px ;
-margin-left: 50px;
-margin-right: 50px;
+margin-left: 50px ;
+margin-right: 50px auto;
 align-items: center;
-
+position: relative;
 }
 
 
