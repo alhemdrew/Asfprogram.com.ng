@@ -67,7 +67,8 @@ iframe{
     margin-right: 50px;
     border-radius: 20px;
     border: black 1px solid;
-    
+    width: 70%;
+  align-items: center;
 }
 .light__black{
     margin-left:50px ;
