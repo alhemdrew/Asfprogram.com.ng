@@ -32,7 +32,7 @@ h1{
 }
 .desc_section2{
     height: 250vh auto;
-    width: 20vh auto;
+    width:  auto;
    position: absolute;
     margin-top: 9px;
     font-family: 'Asap Condesed', sans-serif;
