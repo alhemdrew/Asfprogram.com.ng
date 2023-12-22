@@ -32,14 +32,14 @@ h1{
 }
 .desc_section2{
     height: 250vh auto;
-    width:  auto;
+    width: 70%;
    position: absolute;
     margin-top: 9px;
     font-family: 'Asap Condesed', sans-serif;
     font-family: 'Libre Franklin', sans-serif;
     position: absolute;
     text-align: left;
-    margin-left: 0px;
+    margin: 0 auto;
    
 }
 .desc_section h1{
