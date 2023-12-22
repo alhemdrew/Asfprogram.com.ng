@@ -39,8 +39,7 @@ h1{
     font-family: 'Libre Franklin', sans-serif;
     position: absolute;
     text-align: left;
-    padding-left: 0px;
-  
+    margin-left: 0px;
    
 }
 .desc_section h1{
@@ -84,7 +83,7 @@ margin-right: 50px;
     font-weight: bolder;
     padding-left:50px ;
     padding-right: 50px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .desc_section p{
@@ -161,7 +160,7 @@ padding-bottom: 20px;
 .you_must_be_thinking span{
     font-size: 17px;
     padding-top: 0px;
-    font-weight: lighter;
+    font-weight: bolder;
 }
 .desc_section2 .sm_blk{
     font-size: 17px;
