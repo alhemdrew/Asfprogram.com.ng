@@ -1,6 +1,7 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+  
   @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&family=Libre+Franklin:wght@500&display=swap');
@@ -30,15 +31,15 @@ h1{
  
 }
 .desc_section2{
-    height: 300vh auto;
-    width: 100% auto;
-    padding: 20px;
+    height: 250vh auto;
+    width: 100% ;
+   
     margin-top: 9px;
     font-family: 'Asap Condesed', sans-serif;
     font-family: 'Libre Franklin', sans-serif;
     position: absolute;
     text-align: left;
-   padding-right: 10px;
+   
 }
 .desc_section h1{
     font-size: 20px;
@@ -74,15 +75,14 @@ margin-left: 50px;
 margin-right: 50px;
 
 }
-h1{
-    padding: 10px ;
-}
+
 
 .head{
     padding: 20px;
     font-weight: bolder;
-    padding-left:30px ;
-    padding-right: 30px;
+    padding-left:50px ;
+    padding-right: 50px;
+    font-size: 30px;
 }
 
 .desc_section p{
