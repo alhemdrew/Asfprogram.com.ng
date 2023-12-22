@@ -32,7 +32,7 @@ h1{
 }
 .desc_section2{
     height: 250vh auto;
-    width: 100% ;
+    width: 50vh auto;
    position: absolute;
     margin-top: 9px;
     font-family: 'Asap Condesed', sans-serif;
@@ -54,7 +54,10 @@ h1{
     padding-top: 40px;
 }
 
-
+.long_img{
+    align-items: center;
+    
+}
 iframe{
     margin-left:50px ;
     margin-right: 50px;
@@ -71,11 +74,13 @@ h1, h2, h3{
 img{
 border: 2px solid black;
 border-radius: 20px;
-width: 300px ;
+width: 70%;
 margin-left: 50px ;
-margin-right: 50px auto;
+margin-right: 50px ;
 align-items: center;
+display: block;
 position: relative;
+margin-left: 50px;
 }
 
 
