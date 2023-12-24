@@ -63,10 +63,11 @@ h1{
     
 }
 iframe{
-    margin-left: 50px;
+    margin-left:50px ;
+    margin-left:60px ;
+    margin-right: 50px;
     border-radius: 20px;
-    border: black 1px solid;
-    
+    border: black 1px 
 }
 .light__black{
     margin-left:50px ;
