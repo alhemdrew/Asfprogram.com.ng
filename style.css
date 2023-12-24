@@ -63,12 +63,11 @@ h1{
     
 }
 iframe{
-    margin-left:50px ;
+    margin-left:60px ;
     margin-right: 50px;
     border-radius: 20px;
     border: black 1px solid;
-    width: 70%;
-  align-items: center;
+    
 }
 .light__black{
     margin-left:50px ;
@@ -76,6 +75,10 @@ iframe{
 }
 h1, h2, h3{
     text-align: center;
+}
+.i{
+    font-weight: bold;
+    
 }
 img{
 border: 2px solid black;
@@ -88,7 +91,19 @@ display: block;
 position: relative;
 margin-left: 50px;
 }
+.x_deco li{
+    list-style: none;
+}
+.head h4{
+    color: red;
+    text-decoration-color: red;
+    font-size: 30px;
+    text-align: center;
+}
 
+\2191{
+    font-size: 40px;
+}
 .arrow{
     font-size: 20px;
     font-weight: bolder;
@@ -105,7 +120,7 @@ margin-left: 50px;
     font-weight: bolder;
     padding-left:50px ;
     padding-right: 50px;
-    font-size: 100px;
+    
 }
 
 .desc_section p{
@@ -118,8 +133,12 @@ padding-bottom: 20px;
 }
 .desc_section a{
     text-decoration: none;
-    margin-top: 20px;
-    color: rgb(59, 2, 59);
+    margin-top: 40px;
+    color: white;
+    font-size: 30px;
+   text-align: center;
+    line-height: 90px;
+    
 }
 .desc_section .in{
     text-decoration: double line-through;
@@ -132,14 +151,11 @@ padding-bottom: 20px;
 
 .btn {
     display: inline-block;
-    background: rgb(65, 1, 65);
-    color: white;
-    padding: 1rem 2rem;
-    border: 1px solid transparent;
-    font-weight: 500;
-    transition: 2sec;
-    border-radius: 7px;
-    margin-left:60% ;
+    background: red;
+width: 90% ;
+height: 90px;
+border-radius: 20px;
+margin: 20px;
     
 }
 .payment__link a{
@@ -206,4 +222,6 @@ ul {
   .tick span, .bold_p{
     font-weight: bold;
   }
- 
+ .You_have_3_options_to_take_right_now{
+    color: red;
+ }
