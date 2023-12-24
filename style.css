@@ -69,6 +69,8 @@ border:black 1px;
   width: 70%;
 margin-left: 50px ;
 margin-right: 50px ;
+  display: block ;
+  align-items: center;
 }
 .light__black{
     margin-left:50px ;
