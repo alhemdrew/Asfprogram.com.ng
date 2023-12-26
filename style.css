@@ -117,8 +117,11 @@ margin-left:10px;
   font-size: 40px;
 }
 .x_border_img{
+  width:50%;
+}
+.x_border_img img{
   border:none;
-  
+  width:50%;
 }
 .arrow{
   font-size: 20px;
