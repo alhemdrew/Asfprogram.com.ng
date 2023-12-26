@@ -104,10 +104,15 @@ margin-left: 50px;
   text-align: center;
   
 }
-.head h4, .border{
+.head h4, {
   border:5px solid black;
 }
-
+.border{
+  margin-right:10px;
+margin-left:10px;
+  border:5px solid black;
+}
+}
 \2191{
   font-size: 40px;
 }
