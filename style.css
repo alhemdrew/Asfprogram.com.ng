@@ -1,87 +1,87 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
-  
-  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&family=Libre+Franklin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&family=Libre+Franklin:wght@500&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
-   font-family: 'Asap Condesed', sans-serif;
-   font-family: 'Libre Franklin', sans-serif;
+  margin: 0;
+  padding: 0;
+ font-family: 'Asap Condesed', sans-serif;
+ font-family: 'Libre Franklin', sans-serif;
 }
 p{
-    font-size: 40px;
+  font-size: 40px;
 }
 
 
 
 h1{
-    font-size: 40px ;
-    font-weight: bolder;
+  font-size: 40px ;
+  font-weight: bolder;
 }
 .desc_section{
-    margin-left: 10px ;
-    margin-right: 10px ;
-    margin-top: 10px;
-    background: white;
-    text-align: start;
-   
+  margin-left: 10px ;
+  margin-right: 10px ;
+  margin-top: 10px;
+  background: white;
+  text-align: start;
  
+
 }
 .desc_section2{
-    height: 250vh auto;
-    width: 100%;
-   position: absolute;
-    margin-top: 9px;
-    font-family: 'Asap Condesed', sans-serif;
-    font-family: 'Libre Franklin', sans-serif;
-    position: absolute;
-    text-align: left;
-    margin: 0 auto;
-   
+  height: 250vh auto;
+  width: 100%;
+ position: absolute;
+  margin-top: 9px;
+  font-family: 'Asap Condesed', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
+  position: absolute;
+  text-align: left;
+  margin: 0 auto;
+ 
 }
 .desc_section h1{
-    font-size: 20px;
-    padding-bottom: 10px;
-    
+  font-size: 20px;
+  padding-bottom: 10px;
+  
 }
 .desc_section h2{
-    color: red;
-    font-size: 17px;
-    text-decoration: underline;
-    padding-top: 40px;
+  color: red;
+  font-size: 17px;
+  text-decoration: underline;
+  padding-top: 40px;
 }
- .red_color_h3 h3 {
-    color: red;
+.red_color_h3 h3 {
+  color: red;
 }
 
 .long_img{
-    align-items: center;
-    
+  align-items: center;
+  
 }
 iframe{
 
-    border-radius:  20px;
+  border-radius:  20px;
 border:black 1px;
-  width: 70%;
+width: 70%;
 margin-left: 50px ;
 margin-right: 50px ;
-  display: block ;
-  align-items: center;
+display: block ;
+align-items: center;
 }
 .light__black{
-    margin-left:50px ;
-    margin-right: 50px;
+  margin-left:50px ;
+  margin-right: 50px;
 }
 h1, h2, h3{
-    text-align: center;
+  text-align: center;
 }
 .i{
-    font-weight: bold;
-    
+  font-weight: bold;
+  
 }
 img{
 border: 2px solid black;
@@ -95,35 +95,36 @@ position: relative;
 margin-left: 50px;
 }
 .x_deco li{
-    list-style: none;
+  list-style: none;
 }
 .head h4{
-    color: red;
-    text-decoration-color: red;
-    font-size: 30px;
-    text-align: center;
+  color: red;
+  text-decoration-color: red;
+  font-size: 25px;
+  text-align: center;
+  
 }
 
 \2191{
-    font-size: 40px;
+  font-size: 40px;
 }
 .arrow{
-    font-size: 20px;
-    font-weight: bolder;
-    color: black;
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
 }
 .arrow-down{
-    font-size: 20px;
-    font-weight: bolder;
-    
-    color: red;
+  font-size: 20px;
+  font-weight: bolder;
+  
+  color: red;
 }
 .head{
-    padding: 20px;
-    font-weight: bolder;
-    padding-left:50px ;
-    padding-right: 50px;
-    
+  padding: 20px;
+  font-weight: bolder;
+  padding-left:30px ;
+  padding-right: 30px;
+  
 }
 
 .desc_section p{
@@ -135,96 +136,89 @@ line-height: 25px;
 padding-bottom: 20px;
 }
 .desc_section a{
-    text-decoration: none;
-    margin-top: 40px;
-    color: white;
-    font-size: 30px;
-   text-align: center;
-    line-height: 90px;
-    
+  text-decoration: none;
+  margin-top: 40px;
+  color: white;
+  font-size: 30px;
+ text-align: center;
+  line-height: 90px;
+  
 }
 .desc_section .in{
-    text-decoration: double line-through;
+  text-decoration: double line-through;
 }
 .payment__btn{
-    height: 40px;
-    width: 50px;
-    border-radius: 2px;
+  height: 40px;
+  width: 50px;
+  border-radius: 2px;
 }
 
 .btn {
-    display: inline-block;
-    background: red;
+  display: inline-block;
+  background: red;
 width: 90% ;
 height: 90px;
 border-radius: 20px;
 margin: 20px;
-    
-}
-.payment__link a{
-    color: white;
-    margin-bottom: 50px;
-}
-.payment__link p{
-    font-size: 30px;
-    padding-top:20px ;
+  
 }
 
+
 .red{
-    color: red;
-    text-decoration: none;
+  color: red;
+  text-decoration: none;
 }
 .desc_section h3{
-    color: black;
-    padding-top: 20px;
-    font-weight: bolder;
-    font-size: 25px;
-    
+  color: black;
+  padding-top: 20px;
+  font-weight: bolder;
+  font-size: 25px;
+  
 }
 .tick{
-    padding-top: 20px;
-    list-style-type: disc;
-    line-height: 30px;
-    padding-left: 20px;
-    padding-bottom: 20px;
+  padding-top: 20px;
+  list-style-type: disc;
+  line-height: 30px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 .x_underline_red{
-    font-weight: bolder;
-    font-size: 18px;
-    
+  font-weight: bolder;
+  font-size: 18px;
+  
 }
 .you_must_be_thinking h1{
-    padding-bottom: 0px;
-    margin-bottom: 0;
+  padding-bottom: 0px;
+  margin-bottom: 0;
 }
 .you_must_be_thinking span{
-    font-size: 17px;
-    padding-top: 0px;
-    font-weight: bolder;
+  font-size: 17px;
+  padding-top: 0px;
+  font-weight: bolder;
 }
 .desc_section2 .sm_blk{
-    font-size: 17px;
-    font-weight: lighter;
-     
+  font-size: 17px;
+  font-weight: lighter;
+   
 }
 .desc_section2 p{
-    font-size: 17px;  
+  font-size: 17px;  
 }
 .red_span .red{
-    font-weight: bolder;
+  font-weight: bolder;
 }
 ul {
-    list-style: none;
-  }
-  
-  ul li:before {
-    content: '✓';
-    font-weight: bold;
-  }
-  .tick span, .bold_p{
-    font-weight: bold;
-  }
- .You_have_3_options_to_take_right_now{
-    color: red;
- }
+  list-style: none;
+}
+
+ul li:before {
+  content: '✓';
+  font-weight: bold;
+}
+.tick span, .bold_p{
+  font-weight: bold;
+}
+.You_have_3_options_to_take_right_now{
+  color: red;
+}
