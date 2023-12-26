@@ -155,11 +155,7 @@ padding-bottom: 20px;
 .desc_section .in{
   text-decoration: double line-through;
 }
-.payment__btn{
-  height: 40px;
-  width: 50px;
-  border-radius: 2px;
-}
+
 
 .btn {
   display: inline-block;
@@ -167,11 +163,7 @@ padding-bottom: 20px;
 width: 90% ;
 height: 90px;
 border-radius: 5px;
-margin: 20px;
-  
-}
-.btn_sm{
-  border-radius:5px;
+margin: 10px;
   
 }
 
