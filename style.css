@@ -116,6 +116,10 @@ margin-left:10px;
 \2191{
   font-size: 40px;
 }
+.x_border_img{
+  border:none;
+  
+}
 .arrow{
   font-size: 20px;
   font-weight: bolder;
