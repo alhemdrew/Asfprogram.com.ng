@@ -117,7 +117,8 @@ margin-left:10px;
   font-size: 40px;
 }
 .x_border_img{
-  width:50%;
+  align-items: center;
+  border: none;
 }
 .x_border_img img{
   border:none;
@@ -232,4 +233,13 @@ ul li:before {
 }
 .You_have_3_options_to_take_right_now{
   color: red;
+}
+.footer_container p{
+  padding-top: 20px;
+}
+.footer_container{
+  background: rgb(219, 207, 207);
+  text-align: center;
+  height: 40px;
+  padding: 10px;
 }
