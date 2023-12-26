@@ -170,6 +170,12 @@ border-radius: 20px;
 margin: 20px;
   
 }
+.btn_sm{
+  margin-left: 50px;
+  height: 80px;
+  width: 50% ;
+  
+}
 
 
 .red{
