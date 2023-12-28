@@ -12,6 +12,7 @@
  font-family: 'Asap Condesed', sans-serif;
  font-family: 'Libre Franklin', sans-serif;
 }
+
 p{
   font-size: 40px;
 }
@@ -62,20 +63,7 @@ h1{
   align-items: center;
   
 }
-iframe{
 
-  border-radius:  20px;
-border:black 1px;
-width: 70%;
-margin-left: 50px ;
-margin-right: 50px ;
-display: block ;
-align-items: center;
-}
-.light__black{
-  margin-left:50px ;
-  margin-right: 50px;
-}
 h1, h2, h3{
   text-align: center;
 }
@@ -83,6 +71,37 @@ h1, h2, h3{
   font-weight: bold;
   
 }
+iframe{
+
+  border-radius:  20px;
+border:black 1px;
+width: 70%;
+margin-left: 100px ;
+margin-right: 50px ;
+
+align-items: center;
+}
+.light__black{
+  margin-left:50px ;
+  margin-right: 50px;
+}
+
+.gun img{
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 30%;
+  ;
+  align-items: center;
+  display: block;
+  position: relative;
+  margin-left: 50px;
+  }
+@media screen and (max-width: 760px) {
+
+  .light__black{
+    margin-left:50px ;
+    margin-right: 50px;
+  }
 .gun img{
 border: 2px solid black;
 border-radius: 20px;
@@ -93,7 +112,7 @@ align-items: center;
 display: block;
 position: relative;
 margin-left: 50px;
-}
+}}
 .x_deco li{
   list-style: none;
 }
