@@ -38,6 +38,9 @@ height: 100vh auto ;
 background: rgb(0, 0, 0);
 
 }
+.description__container h1{
+  font-family: 30px;
+}
 p{
     color: white;
     font-size: 15px;
@@ -47,14 +50,14 @@ p{
 .start_course h1{
     margin-bottom: 10px ;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     background: rgb(2, 2, 56) ;
     text-align: left;
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 50px;
-    height: 50px;
+    height: 40px;
    
 }
 @media screen and (max-width: 360px) {
@@ -70,15 +73,15 @@ p{
   text-decoration: none;
 }
 .arrow-down{
-    color: white;
-    font-size: 35px;
-    padding-left: 20%;
-   
+  color: white;
+  font-size: 35px;
+  padding-left: 20%;
+ 
 }
 h1{
     color: white;
     text-align: left;
-    font-size: 30px;
+    font-size: 40px;
 }
 .course_desc{
     background: rgb(20, 20, 20);
@@ -97,7 +100,7 @@ h1{
 .course span{
     font-size: 10px;
     color: blue;
-    margin-left:10vh;
+    margin-left:25vh;
    
 }
 
