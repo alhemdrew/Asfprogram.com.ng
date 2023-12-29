@@ -24,12 +24,13 @@
     padding: 0;
 }
 .headerxx h2{   text-align: left;
-    font-size: 25px ;
+    font-size: 25px auto;
     position: absolute;
-    margin-left: 50%;
+    margin-left: 45%;
     z-index: 1;
     color: white;
-    margin-right: 30px;
+    margin-right: 20px;
+    position: absolute;
     
 }
 .description__container{
@@ -56,10 +57,22 @@ p{
     height: 40px;
    
 }
+@media screen and (max-width: 360px) {
+  .arrow-down{
+    color: white;
+    font-size: 30px;
+  
+   
+}
+}
 
+.start_course a{
+  text-decoration: none;
+}
 .arrow-down{
     color: white;
-    font-size: 25px;
+    font-size: 35px;
+    padding-left: 20%;
    
 }
 h1{
