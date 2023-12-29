@@ -119,6 +119,9 @@ h1{
   
 
   }
+  .dropdown-content{
+    display: block;
+}
   .dropdown-content {
     display: none;
     position: absolute;
