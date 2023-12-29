@@ -1,37 +1,37 @@
 
 .header h1{
-    font-size: 25px;
-    text-align: left;
-    color: white;
-    padding: 10px;
+  font-size: 25px;
+  text-align: left;
+  color: white;
+  padding: 10px;
 }
 .headerxx img {
-    height: 150px;
-    width: 90%;
-    
-    padding-left: 10px;
-   
+  height: 150px;
+  width: 90%;
+  
+  padding-left: 10px;
+ 
 }
 
 .headerxx{
-    border: 1px  solid;
-    background: rgb(19, 19, 114);
-    gap: 50px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 50px;
-    padding: 0;
+  border: 1px  solid;
+  background: rgb(19, 19, 114);
+  gap: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 50px;
+  padding: 0;
 }
 .headerxx h2{   text-align: left;
-    font-size: 25px auto;
-    position: absolute;
-    margin-left: 45%;
-    z-index: 1;
-    color: white;
-    margin-right: 20px;
-    position: absolute;
-    
+  font-size: 25px auto;
+  position: absolute;
+  margin-left: 45%;
+  z-index: 1;
+  color: white;
+  margin-right: 20px;
+  position: absolute;
+  
 }
 .description__container{
 height: 100vh auto ;
@@ -39,130 +39,150 @@ background: rgb(0, 0, 0);
 
 }
 .description__container h1{
-  font-family: 30px;
+font-family: 30px;
 }
 p{
-    color: white;
-    font-size: 15px;
-    
+  color: white;
+  font-size: 15px;
+  
 }
 
 .start_course h1{
-    margin-bottom: 10px ;
-    color: white;
-    font-size: 30px;
-    background: rgb(2, 2, 56) ;
-    text-align: left;
-    text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    border-radius: 50px;
-    height: 40px;
-   
+  margin-bottom: 10px ;
+  color: white;
+  
+  background: rgb(2, 2, 56) ;
+  text-align: left;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 50px;
+  height: 50px;
+ 
 }
 @media screen and (max-width: 360px) {
-  .arrow-down{
-    color: white;
-    font-size: 30px;
-  
-   
+.arrow-down{
+  color: white;
+  font-size: 30px;
+
+ 
 }
 }
 
 .start_course a{
-  text-decoration: none;
+text-decoration: none;
+font-size: 30px;
+padding: 10px;
 }
 .arrow-down{
-  color: white;
-  font-size: 35px;
-  padding-left: 20%;
- 
+color: white;
+font-size: 35px;
+padding-left: 20%;
+
 }
 h1{
-    color: white;
-    text-align: left;
-    font-size: 40px;
+  color: blue;
+  text-align: left;
+  font-size: 20px;
 }
-.course_desc{
-    background: rgb(20, 20, 20);
-    height: 100vh;
-    padding: 10px;
+
+.course_desc p{
+  background: rgb(20, 20, 20);
+
+  padding: 10px;
+  padding-top: 0;
+  font-size: 20px;
 }
+a{
+  text-decoration: none;
+  color: blue;
+ 
+}
+.course_desc {
+  background: rgb(20, 20, 20);
+  height: 150vh;
+  padding: 10px;}
 .course{
-    border: 2px solid white;
-    padding: 10px;
+  border: 2px solid white;
+  padding: 10px;
 }
 .course a{
-    text-decoration: none;
-    color: rgb(219, 204, 204);
-   
+  text-decoration: none;
+  color: rgb(219, 204, 204);
+ position: absolute;
 }
-.course span{
-    font-size: 10px;
-    color: blue;
-    margin-left:30%;
-   
+.course p{
+  font-size: 10px;
+  color: blue;
+
+ 
+}
+.dropdown a{
+  display: flex;
+  justify-content: space-between;
+  gap: 0px;
 }
 
-  .show {display:block;}
-  .dropdown {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .dropdown .dropbtn{
-    color: rgb(209, 203, 192);
-    text-align: left;
-    position: relative;
-    padding: 10px;
-  
-
-  }
-  .dropdown-content{
-    display: block;
+.show {display:block;}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 20px;
 }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #051c41;
-    z-index: 1;
-    min-width: 150px;
-  }
-  .dropdown-content p{
-    padding-left: 10px;
-    padding-top: 10px;
-    color: #dbd9d9;
-    padding-bottom: 0;
-    
-  }
-  .nav-link{
-    padding: 14px 16px;
-    display: block;
-    color: white;
-    font-weight: bold;
-  }
+.dropdown .dropbtn{
+  color: rgb(209, 203, 192);
+  text-align: left;
+  position: relative;
+  padding: 10px;
+
+
+}
+.dropdown-content{
+  display: block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #051c41;
+  z-index: 1;
+  min-width: 150px;
+}
+.dropdown-content p{
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #dbd9d9;
+  padding-bottom: 0;
   
-  .dropdown a,.dropdown-content a:hover {
-    background-color: #383636;
-  }
-  
-  .show {
-    display: block;
-  }
-  iframe{
-    margin: 0;
-    padding: 20px;
-    align-items: center;
-    width: 90%;
-    height: 150;
-  }
-  .dropdown-content .back{
-    color: blue;
-    margin-left: 50%;
-    margin-bottom: 50px;
-  }
-  .dropdown-content a{
-    color: blue;
-    padding: 10px;
-  }
+}
+.nav-link{
+  padding: 14px 16px;
+  display: block;
+  color: white;
+  font-weight: bold;
+}
+
+.dropdown a,.dropdown-content a:hover {
+  background-color: #383636;
+}
+
+.show {
+  display: block;
+}
+iframe{
+  margin: 0;
+  padding: 20px;
+  align-items: center;
+  width: 90%;
+  height: 150;
+}
+.dropdown-content .back{
+  color: blue;
+  margin-left: 20%;
+  margin-bottom: 50px;
+}
+.dropdown-content a{
+  color: rgb(238, 238, 245);
+  padding: 10px;
+  font-size: 20px;
+}
