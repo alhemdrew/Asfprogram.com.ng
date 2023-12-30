@@ -46,7 +46,9 @@ p{
   font-size: 15px;
   
 }
-
+.start_course span{
+  font-size: 20px;
+}
 .start_course h1{
  margin: 20px;
   color: white;
@@ -65,7 +67,7 @@ p{
 .arrow-down{
   color: white;
   font-size: 10px;
-  padding-left: 20px;
+  padding-left: 10px;
  
 }
 }
@@ -84,13 +86,14 @@ color: white;
 .arrow-down{
   color: white;
 font-size: 35px;
-padding-left: 20%;
+padding-left: 5%;
 
 }
 .h1 h1{
   color: rgb(100, 181, 247);
   text-align: left;
-  font-size: 30px;
+  font-size: 20px;
+  font-weight: bold;
   
 }
 .bck_img img{
