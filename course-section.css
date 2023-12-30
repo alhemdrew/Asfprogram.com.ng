@@ -34,7 +34,7 @@
   
 }
 .description__container{
-height: 100vh auto ;
+height: auto ;
 background: rgb(0, 0, 0);
 
 }
@@ -48,50 +48,51 @@ p{
 }
 
 .start_course h1{
-  margin-bottom: 10px ;
+ padding-bottom: 10px ;
   color: white;
-  
   background: rgb(2, 2, 56) ;
-  text-align: left;
   text-align: center;
-  margin-left: 50px;
-  margin-right: 50px;
   border-radius: 50px;
-  height: 50px;
+  height: 60px;
  
 }
 @media screen and (max-width: 360px) {
 .arrow-down{
   color: white;
-  font-size: 30px;
-
+  font-size: 10px;
+  padding-left: 20px;
  
 }
 }
-
+.start_course{
+  width: 100%;
+}
 .start_course a{
 text-decoration: none;
-font-size: 30px;
+font-size: 20px;
 padding: 10px;
+color: white;
+
 }
 .arrow-down{
-color: white;
+  color: white;
 font-size: 35px;
 padding-left: 20%;
 
 }
 h1{
-  color: blue;
+  color: rgb(100, 181, 247);
   text-align: left;
-  font-size: 20px;
+  font-size: 27px;
+  font-weight: bold;
 }
 
 .course_desc p{
-  background:white;
-
+  background: rgb(20, 20, 20);
+font-weight: bold;
   padding: 10px;
   padding-top: 0;
-  font-size: 20px;
+  font-size: 30px;
 }
 a{
   text-decoration: none;
@@ -100,11 +101,12 @@ a{
 }
 .course_desc {
   background: rgb(20, 20, 20);
-  height: 150vh;
+  height: auto;
   padding: 10px;}
 .course{
   border: 2px solid white;
   padding: 10px;
+ 
 }
 .course a{
   text-decoration: none;
@@ -113,16 +115,19 @@ a{
 }
 .course p{
   font-size: 10px;
-  color: blue;
+  color: rgb(225, 225, 235);
 
  
 }
-.dropdown a{
+.dropdown a, .dropdown h6{
   display: flex;
   justify-content: space-between;
   gap: 0px;
 }
-
+.dropdown h6{
+  
+  font-size: 17px;
+}
 .show {display:block;}
 .dropdown {
   position: relative;
@@ -130,8 +135,11 @@ a{
   width: 100%;
   margin-bottom: 20px;
 }
+.dropdown p{
+  color: white;
+}
 .dropdown .dropbtn{
-  color: rgb(209, 203, 192);
+  color: rgb(100, 181, 247);
   text-align: left;
   position: relative;
   padding: 10px;
