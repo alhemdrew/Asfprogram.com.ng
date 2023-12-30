@@ -93,7 +93,7 @@ font-size: 30px;
 .h1 h1{
   color: rgb(100, 181, 247);
   text-align: left;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
   
 }
@@ -188,6 +188,7 @@ a{
   padding-top: 10px;
   color: #dbd9d9;
   padding-bottom: 0;
+  
   
 }
 .nav-link{
