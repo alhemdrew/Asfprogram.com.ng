@@ -226,6 +226,7 @@ iframe{
   color: blue;
   margin-left: 20%;
   margin-bottom: 50px;
+  background: white;
 }
 .dropdown-content a{
   color: rgb(238, 238, 245);
