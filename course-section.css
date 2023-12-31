@@ -1,9 +1,12 @@
 
 .header h1{
-  font-size: 25px;
+  font-size: 20px;
   text-align: left;
   color: white;
   padding: 10px;
+  padding-top: 0;
+  margin-bottom: 0;
+  font-weight: bold;
 }
 .headerxx img {
   height: 150px;
@@ -75,11 +78,13 @@ p{
   width: 90%;
   padding-left: 20px;
   padding-right: 20px;
+  
 }
 .start_course a,.start_course h1 {
 text-decoration: none;
 font-size: 15px auto;
 padding: 10px;
+padding-top: 0;
 padding-left: 0;
 color: white;
 
@@ -102,11 +107,12 @@ font-size: 30px;
   position: absolute;
   opacity: 0.3;
   padding: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   border-radius: 40px;
   padding-bottom: 30px;
- width: 80% ;
+  padding-top:0 ;
+ width: 90% ;
   
 }
 
