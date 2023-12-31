@@ -95,12 +95,16 @@ font-size: 30px;
 
 
 }
-.h1 h1{
-  color: rgb(100, 181, 247);
+.h1 h1 {
+  color: rgb(92, 166, 231);
   text-align: left;
   font-size: 15px;
   font-weight: bold;
   
+}
+.h1{
+  color:white;
+  font-weight: bold;
 }
 .bck_img img{
   height: 180px;
