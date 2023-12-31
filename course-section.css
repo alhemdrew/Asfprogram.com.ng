@@ -226,6 +226,7 @@ iframe{
   color: blue;
   margin-left: 20%;
   margin-bottom: 50px;
+  font-size: 20px;
   background: white;
 }
 .dropdown-content a{
