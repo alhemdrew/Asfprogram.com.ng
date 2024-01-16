@@ -86,6 +86,7 @@ h1, h2, h3{
 text-decoration: none;
 padding-bottom: 10px;
 text-align: left;
+  font-weight: bold;
 }
 
 .sales_challenge img{
